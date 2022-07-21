@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align-content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+
+        }
+        .itens{
+            background-color: orangered;
+            padding: 0 5px;
+            flex:1;
+            margin: 5px;
+            text-align: center;
+            color: white
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container">
+        <div class="itens">teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="itens">teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="itens">teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste teste teste teste</div>
+        <div class="itens">teste teste teste</div>
+    </div>
+</body>
+</html>
