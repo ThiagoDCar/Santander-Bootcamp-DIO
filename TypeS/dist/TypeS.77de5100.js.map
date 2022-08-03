@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":"AAAA,SAAS,IAAT,CAAc,CAAd,EAAyB,CAAzB,EAAkC;EAC9B,OAAO,CAAC,GAAG,CAAX;AAEH","file":"TypeS.77de5100.js","sourceRoot":"..","sourcesContent":["function soma(a: number, b: number){\n    return a + b;\n\n}"]}
