@@ -48,4 +48,4 @@ import { CourseInfoComponent } from './courses/course-info.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
